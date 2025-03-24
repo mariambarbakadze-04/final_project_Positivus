@@ -76,6 +76,9 @@ button {
   display: flex;
   flex-wrap: wrap;
 }
+.hero-section {
+  justify-content: space-between;
+}
 .bg-green {
   background-color: var(--primary-color);
 }
@@ -128,6 +131,7 @@ button {
   border-radius: 14px;
   margin-left: 40px;
 }
+
 .menu-toggle {
   display: none;
   cursor: pointer;
@@ -833,6 +837,7 @@ address {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
   }
   .heading {
     padding-bottom: 50px;
